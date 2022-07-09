@@ -9,4 +9,4 @@ EOF
 endfunction
 
 command! Reload :call Reload_Hello()
-command! Hello :lua require("hello").say_hello_world()
+command! Hello :lua require("nvim_plug_1").say_hello_world()
